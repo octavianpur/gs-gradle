@@ -11,6 +11,10 @@ import java.util.*;
 // log.debug("Hello this is a debug message");
 
 public class HelloWorld {
+  
+  /* Get actual class name to be printed on */
+  static Logger log = Logger.getLogger(log4jExample.class.getName());
+  
   public static void main(String[] args) {
     LocalTime currentTime = new LocalTime();
     //System.out.println("The current local time is: " + currentTime);
